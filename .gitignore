@@ -1,7 +1,7 @@
 # Additional files
-*.txt
+*_people.txt
 *.csv
-*.json
+*_people.json
 
 # History files
 .Rhistory
