@@ -1,3 +1,8 @@
+# Additional files
+*.txt
+*.csv
+*.json
+
 # History files
 .Rhistory
 .Rapp.history
