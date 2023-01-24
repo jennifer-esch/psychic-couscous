@@ -1,4 +1,5 @@
 import json
+import pandas as pd
 
 #Function to filter every json file for death cause, and whether the person is a politician or activist
 def filter_funct(people_file):
@@ -58,14 +59,13 @@ Z_people_filt = filter_funct('People/Z_people.json')
 #Merge all seperate lists into a single list
 activist_politician_data = A_people_filt + B_people_filt + C_people_filt + D_people_filt + E_people_filt + F_people_filt + G_people_filt + H_people_filt + I_people_filt + J_people_filt + K_people_filt + L_people_filt + M_people_filt + N_people_filt + O_people_filt + P_people_filt + Q_people_filt + R_people_filt + S_people_filt + T_people_filt + U_people_filt + V_people_filt + W_people_filt + X_people_filt + Y_people_filt + Z_people_filt
 
+#Create JSON file with selected data
 with open('people_data.json', 'w', encoding='utf-8') as file:
     json.dump(activist_politician_data, file, indent=2)
 
 with open('people_data.json') as file:
-    people_data = json.load(file)
+    people_data_json = json.load(file)
 
-
-with open('activist_politician_data.csv', 'w') as file:
-    file.write('Name,Nationality,Occupation,Description,Birth date,Death date,Death place,Death cause')
-    for person in people_data:
-        file.write(f"{person['title']},{person['ontology/nationality']},{person['ontology/occupation_label']},{person['http://purl.org/dc/elements/1.1/description']},person{['ontology/birthDate']},{person['ontology/deathDate']},{person['ontology/deathPlace_label']},{person['ontology/deathCause_label']}\n")
+#Save output into a csv file
+people_data = pd.read_json('people_data.json')
+people_data.to_csv('people_data.csv')
