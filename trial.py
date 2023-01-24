@@ -16,17 +16,24 @@ def filter_funct(people_file):
             if type(person['http://purl.org/dc/elements/1.1/description']) is list:     #filter if description is a list
                 for description in person['http://purl.org/dc/elements/1.1/description']:
                     if 'politician' in description.lower():
+                        person['type'] = 'Politician'
                         pol_act_filtered.append(person)
                     elif 'activist' in description.lower():
+                        person['type'] = 'Activist'
                         pol_act_filtered.append(person)
-
             else:       #filter if description is a string
                 if 'politician' in person['http://purl.org/dc/elements/1.1/description'].lower():
+                    person['type'] = 'Politician'
                     pol_act_filtered.append(person)
                 elif 'activist' in person['http://purl.org/dc/elements/1.1/description'].lower():
+                    person['type'] = 'Activist'
                     pol_act_filtered.append(person)
+
     
     return pol_act_filtered
+
+
+
 
 #Apply the filtering on json file for every letter
 A_people_filt = filter_funct('People/A_people.json')
