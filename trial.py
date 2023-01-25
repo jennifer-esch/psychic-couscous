@@ -23,7 +23,7 @@ def filter_funct(people_file):
                     elif 'activist' in description.lower():
                         person['type'] = 'Activist'
                         occupation_filtered.append(person)
-                    elif ('artist' or 'musician' or 'author' or 'actor' or 'writer') in description.lower():
+                    elif ('artist' or 'musician' or 'author' or 'actor' or 'actress' or 'writer') in description.lower():
                         person['type'] = 'Artist'
                         occupation_filtered.append(person)
                     elif 'business' in description.lower():
@@ -40,7 +40,7 @@ def filter_funct(people_file):
                 elif 'activist' in person['http://purl.org/dc/elements/1.1/description'].lower():
                     person['type'] = 'Activist'
                     occupation_filtered.append(person)
-                elif ('artist' or 'musician' or 'author' or 'actor' or 'writer') in person['http://purl.org/dc/elements/1.1/description'].lower():
+                elif ('artist' or 'musician' or 'author' or 'actor' or 'actress' or 'writer') in person['http://purl.org/dc/elements/1.1/description'].lower():
                     person['type'] = 'Artist'
                     occupation_filtered.append(person)
                 elif 'business' in person['http://purl.org/dc/elements/1.1/description'].lower():
