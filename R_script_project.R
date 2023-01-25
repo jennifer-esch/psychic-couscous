@@ -1,7 +1,6 @@
 library(tidyverse)
 library('dplyr')
 
-
 people_data <- read_csv('people_data.csv')
 
 people_data_selected_columns <- people_data |>
@@ -12,7 +11,7 @@ people_data_selected_columns <- people_data |>
          'Death_cause' = 'ontology/deathCause_label'
          )
 
-death_cause_mapping <- read_csv('mapping_deaths.csv')
+death_cause_mapping <- read_csv('mapping_death_causes.csv')
 
 people_categorized <- left_join(people_data_selected_columns, 
                                 death_cause_mapping, by="Death_cause")
@@ -44,8 +43,6 @@ pct_barplot_1 <- ggplot(data = pct) +
   labs(title= 'Percentage of deaths by occupation and death cause type') +
   theme_light() +
   geom_bar(position="stack", stat="identity") +
-  cat = factor(c('Natural', 'Suicide', 'Violent'), 
-               levels = c('Natural', 'Violent', 'Suicide')) +
   scale_fill_manual(values=c("#56B4E9", "#E69F00", "#C0392B"))
 
 #barplot with grouped bars per occupation
