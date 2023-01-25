@@ -4,11 +4,13 @@ import pandas as pd
 #Function to filter every json file for death cause, and whether the person is a politician or activist
 def filter_funct(people_file):
     people_filtered = []    #empty list for people that have a death cause listed
-    pol_act_filtered = []   #empty list for people that are either activist or politician
+    occupation_filtered = []   #empty list for people that are either activist or politician
     with open(people_file) as file:     #load the json file
         letter_people = json.load(file)
     for person in letter_people:        #loop to filter if death cause is listed
         if 'ontology/deathCause_label' in person:
+            if isinstance(person['ontology/deathCause_label'], list):
+                person['ontology/deathCause_label'] = person['ontology/deathCause_label'][0]
             people_filtered.append(person)
 
     for person in people_filtered:      #loop to filter for politician or activist
@@ -17,20 +19,42 @@ def filter_funct(people_file):
                 for description in person['http://purl.org/dc/elements/1.1/description']:
                     if 'politician' in description.lower():
                         person['type'] = 'Politician'
-                        pol_act_filtered.append(person)
+                        occupation_filtered.append(person)
                     elif 'activist' in description.lower():
                         person['type'] = 'Activist'
-                        pol_act_filtered.append(person)
+                        occupation_filtered.append(person)
+                    elif 'artist' or 'musician' or 'author' or 'actor' or 'writer' in description.lower():
+                        person['type'] = 'Artist'
+                        occupation_filtered.append(person)
+                    elif 'business' in description.lower():
+                        person['type'] = 'Businessperson'
+                        occupation_filtered.append(person)
+                    elif 'scholar' or 'professor' or 'academic' in description.lower():
+                        person['type'] = 'Scholar'
+                        occupation_filtered.append(person)
+                    else:
+                        person['type'] = 'Other'
+
             else:       #filter if description is a string
                 if 'politician' in person['http://purl.org/dc/elements/1.1/description'].lower():
                     person['type'] = 'Politician'
-                    pol_act_filtered.append(person)
+                    occupation_filtered.append(person)
                 elif 'activist' in person['http://purl.org/dc/elements/1.1/description'].lower():
                     person['type'] = 'Activist'
-                    pol_act_filtered.append(person)
-
+                    occupation_filtered.append(person)
+                elif 'scholar' or 'professor' or 'academic' in person['http://purl.org/dc/elements/1.1/description'].lower():
+                    person['type'] = 'Scholar'
+                    occupation_filtered.append(person)
+                elif 'artist' or 'musician' or 'author' or 'actor' or 'writer' in person['http://purl.org/dc/elements/1.1/description'].lower():
+                    person['type'] = 'Artist'
+                    occupation_filtered.append(person)
+                elif 'business' in person['http://purl.org/dc/elements/1.1/description'].lower():
+                    person['type'] = 'Businessperson'
+                    occupation_filtered.append(person)
+                else:
+                    person['type'] = 'Other'
     
-    return pol_act_filtered
+    return occupation_filtered
 
 
 
