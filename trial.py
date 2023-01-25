@@ -17,13 +17,17 @@ def filter_funct(people_file):
         if 'http://purl.org/dc/elements/1.1/description' in person:
             if type(person['http://purl.org/dc/elements/1.1/description']) is list:     #filter if description is a list
                 for description in person['http://purl.org/dc/elements/1.1/description']:
+                    is_artist = False
+                    for artist_label in ['artist', 'musician', 'author', 'actor', 'actress', 'writer', 'singer', 'painter', 'dancer']:
+                        if artist_label in description.lower():
+                            is_artist = True
                     if 'politician' in description.lower():
                         person['type'] = 'Politician'
                         occupation_filtered.append(person)
                     elif 'activist' in description.lower():
                         person['type'] = 'Activist'
                         occupation_filtered.append(person)
-                    elif ('artist' or 'musician' or 'author' or 'actor' or 'actress' or 'writer') in description.lower():
+                    elif is_artist:
                         person['type'] = 'Artist'
                         occupation_filtered.append(person)
                     elif 'business' in description.lower():
@@ -34,13 +38,18 @@ def filter_funct(people_file):
                         occupation_filtered.append(person)
 
             else:       #filter if description is a string
+                is_artist = False
+                for artist_label in ['artist', 'musician', 'author', 'actor', 'actress', 'writer', 'singer', 'painter', 'dancer']:
+                    if artist_label in person['http://purl.org/dc/elements/1.1/description'].lower():
+                        is_artist = True
+                
                 if 'politician' in person['http://purl.org/dc/elements/1.1/description'].lower():
                     person['type'] = 'Politician'
                     occupation_filtered.append(person)
                 elif 'activist' in person['http://purl.org/dc/elements/1.1/description'].lower():
                     person['type'] = 'Activist'
                     occupation_filtered.append(person)
-                elif ('artist' or 'musician' or 'author' or 'actor' or 'actress' or 'writer') in person['http://purl.org/dc/elements/1.1/description'].lower():
+                elif is_artist:
                     person['type'] = 'Artist'
                     occupation_filtered.append(person)
                 elif 'business' in person['http://purl.org/dc/elements/1.1/description'].lower():
@@ -49,6 +58,8 @@ def filter_funct(people_file):
                 else:
                     person['type'] = 'Other'
                     occupation_filtered.append(person)
+                
+                
 
     return occupation_filtered
 
