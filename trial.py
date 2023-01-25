@@ -1,78 +1,92 @@
 import json
-import pandas as pd
+import csv
 
 #Function to filter every json file for death cause, and whether the person is a politician or activist
 def filter_funct(people_file):
     people_filtered = []    #empty list for people that have a death cause listed
-    pol_act_filtered = []   #empty list for people that are either activist or politician
+    occupation_filtered = []   #empty list for people that are either activist or politician
     with open(people_file) as file:     #load the json file
         letter_people = json.load(file)
     for person in letter_people:        #loop to filter if death cause is listed
         if 'ontology/deathCause_label' in person:
+            if isinstance(person['ontology/deathCause_label'], list):
+                person['ontology/deathCause_label'] = person['ontology/deathCause_label'][0]
             people_filtered.append(person)
 
-    for person in people_filtered:      #loop to filter for politician or activist
+    for person in people_filtered:      #loop to filter for different occupations
         if 'http://purl.org/dc/elements/1.1/description' in person:
             if type(person['http://purl.org/dc/elements/1.1/description']) is list:     #filter if description is a list
                 for description in person['http://purl.org/dc/elements/1.1/description']:
+                    is_artist = False
+                    for artist_label in ['artist', 'musician', 'author', 'actor', 'actress', 'writer', 'singer', 'painter', 'dancer']:
+                        if artist_label in description.lower():
+                            is_artist = True
                     if 'politician' in description.lower():
                         person['type'] = 'Politician'
-                        pol_act_filtered.append(person)
+                        occupation_filtered.append(person)
                     elif 'activist' in description.lower():
                         person['type'] = 'Activist'
-                        pol_act_filtered.append(person)
+                        occupation_filtered.append(person)
+                    elif is_artist:
+                        person['type'] = 'Artist'
+                        occupation_filtered.append(person)
+                    elif 'business' in description.lower():
+                        person['type'] = 'Businessperson'
+                        occupation_filtered.append(person)
+                    else:
+                        person['type'] = 'Other'
+                        occupation_filtered.append(person)
+
             else:       #filter if description is a string
+                is_artist = False
+                for artist_label in ['artist', 'musician', 'author', 'actor', 'actress', 'writer', 'singer', 'painter', 'dancer']:
+                    if artist_label in person['http://purl.org/dc/elements/1.1/description'].lower():
+                        is_artist = True
+                
                 if 'politician' in person['http://purl.org/dc/elements/1.1/description'].lower():
                     person['type'] = 'Politician'
-                    pol_act_filtered.append(person)
+                    occupation_filtered.append(person)
                 elif 'activist' in person['http://purl.org/dc/elements/1.1/description'].lower():
                     person['type'] = 'Activist'
-                    pol_act_filtered.append(person)
+                    occupation_filtered.append(person)
+                elif is_artist:
+                    person['type'] = 'Artist'
+                    occupation_filtered.append(person)
+                elif 'business' in person['http://purl.org/dc/elements/1.1/description'].lower():
+                    person['type'] = 'Businessperson'
+                    occupation_filtered.append(person)
+                else:
+                    person['type'] = 'Other'
+                    occupation_filtered.append(person)
+                
+                
 
-    
-    return pol_act_filtered
+    return occupation_filtered
 
-
-
-
-#Apply the filtering on json file for every letter
-A_people_filt = filter_funct('People/A_people.json')
-B_people_filt = filter_funct('People/B_people.json')
-C_people_filt = filter_funct('People/C_people.json')
-D_people_filt = filter_funct('People/D_people.json')
-E_people_filt = filter_funct('People/E_people.json')
-F_people_filt = filter_funct('People/F_people.json')
-G_people_filt = filter_funct('People/G_people.json')
-H_people_filt = filter_funct('People/H_people.json')
-I_people_filt = filter_funct('People/I_people.json')
-J_people_filt = filter_funct('People/J_people.json')
-K_people_filt = filter_funct('People/K_people.json')
-L_people_filt = filter_funct('People/L_people.json')
-M_people_filt = filter_funct('People/M_people.json')
-N_people_filt = filter_funct('People/N_people.json')
-O_people_filt = filter_funct('People/O_people.json')
-P_people_filt = filter_funct('People/P_people.json')
-Q_people_filt = filter_funct('People/Q_people.json')
-R_people_filt = filter_funct('People/R_people.json')
-S_people_filt = filter_funct('People/S_people.json')
-T_people_filt = filter_funct('People/T_people.json')
-U_people_filt = filter_funct('People/U_people.json')
-V_people_filt = filter_funct('People/V_people.json')
-W_people_filt = filter_funct('People/W_people.json')
-X_people_filt = filter_funct('People/X_people.json')
-Y_people_filt = filter_funct('People/Y_people.json')
-Z_people_filt = filter_funct('People/Z_people.json')
-
-#Merge all seperate lists into a single list
-activist_politician_data = A_people_filt + B_people_filt + C_people_filt + D_people_filt + E_people_filt + F_people_filt + G_people_filt + H_people_filt + I_people_filt + J_people_filt + K_people_filt + L_people_filt + M_people_filt + N_people_filt + O_people_filt + P_people_filt + Q_people_filt + R_people_filt + S_people_filt + T_people_filt + U_people_filt + V_people_filt + W_people_filt + X_people_filt + Y_people_filt + Z_people_filt
+#Apply the filtering on json file for every letter in the alphabet
+alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+occupation_death_data = []
+for letter in alphabet:
+    letter_filtered = filter_funct(f'People/{letter}_people.json')
+    occupation_death_data.extend(letter_filtered)
 
 #Create JSON file with selected data
-with open('people_data.json', 'w', encoding='utf-8') as file:
-    json.dump(activist_politician_data, file, indent=2)
+with open('people_data.json', 'w', encoding = 'utf-8') as file:
+    json.dump(occupation_death_data, file, indent=2)
 
 with open('people_data.json') as file:
     people_data_json = json.load(file)
 
+with open('people_data.csv', 'w', newline = '', encoding = 'utf-8') as csvfile:
+    fieldnames = ['title','type','ontology/birthDate','ontology/deathDate','ontology/deathCause_label']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames, extrasaction= 'ignore')
+    writer.writeheader()
+    for person in people_data_json:
+        writer.writerow(person)
+        
+
+#file.write('Name,Type,Birth_date,Death_date,Death_cause\n')
+
 #Save output into a csv file
-people_data = pd.read_json('people_data.json')
-people_data.to_csv('people_data.csv')
+#people_data = pd.read_json('people_data.json')
+#people_data.to_csv('people_data.csv')
