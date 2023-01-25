@@ -1,5 +1,4 @@
 import json
-import pandas as pd
 import csv
 
 #Function to filter every json file for death cause, and whether the person is a politician or activist
@@ -30,11 +29,9 @@ def filter_funct(people_file):
                     elif 'business' in description.lower():
                         person['type'] = 'Businessperson'
                         occupation_filtered.append(person)
-                    elif ('scholar' or 'professor' or 'academic') in description.lower():
-                        person['type'] = 'Scholar'
-                        occupation_filtered.append(person)
                     else:
                         person['type'] = 'Other'
+                        occupation_filtered.append(person)
 
             else:       #filter if description is a string
                 if 'politician' in person['http://purl.org/dc/elements/1.1/description'].lower():
@@ -42,9 +39,6 @@ def filter_funct(people_file):
                     occupation_filtered.append(person)
                 elif 'activist' in person['http://purl.org/dc/elements/1.1/description'].lower():
                     person['type'] = 'Activist'
-                    occupation_filtered.append(person)
-                elif ('scholar' or 'professor' or 'academic') in person['http://purl.org/dc/elements/1.1/description'].lower():
-                    person['type'] = 'Scholar'
                     occupation_filtered.append(person)
                 elif ('artist' or 'musician' or 'author' or 'actor' or 'writer') in person['http://purl.org/dc/elements/1.1/description'].lower():
                     person['type'] = 'Artist'
@@ -54,7 +48,8 @@ def filter_funct(people_file):
                     occupation_filtered.append(person)
                 else:
                     person['type'] = 'Other'
-    
+                    occupation_filtered.append(person)
+
     return occupation_filtered
 
 #Apply the filtering on json file for every letter in the alphabet

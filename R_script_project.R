@@ -6,8 +6,7 @@ people_data_selected_columns <- people_data |>
   select('Name' = 'title',
          'Type' = 'type',
          'Birth_date' = 'ontology/birthDate',
-         'Death_date' = 'ontology/deathDate', 
-         'Death_place' = 'ontology/deathPlace_label',
+         'Death_date' = 'ontology/deathDate',
          'Death_cause' = 'ontology/deathCause_label'
          )
 
