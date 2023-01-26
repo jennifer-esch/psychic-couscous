@@ -98,10 +98,12 @@ data_decade <- data_with_year |>
   group_by(decade, occupation,category) |>
   summarise(percentage = mean(percentage))
 
+#keep only activists and politicians and remove natural deaths for plotting
 data_decade_civic <- data_decade |>
   subset(occupation == 'civic') |>
   subset (category != 'Natural')
 
+#keep other occupations and remove natural deaths for plotting
 data_decade_other<- data_decade |>
   subset(occupation=='other') |>
   subset (category != 'Natural')
@@ -131,10 +133,3 @@ lineplot_other <- ggplot(data = data_decade_other) +
   scale_color_manual(values=c("#E69F00", "#C0392B"))
 ggsave('Lineplot_other.pdf', width= 10, height=5)
 print(lineplot_other)
-
-#lineplot_pct <- ggplot(data = data_decade_civic) +
-#  aes(x=decade, y=percentage, fill=occupation) +
-#  xlab("Year of violent death") +
-#  ylab("Percentage of violent death within year") +
-#  theme_light() +
-#  geom_bar(position='stack', stat='identity')
