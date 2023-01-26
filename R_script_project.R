@@ -43,13 +43,13 @@ barplot_occupation <- ggplot(data = pct) +
   theme_light() +
   geom_bar(position="stack", stat="identity") +
   scale_fill_manual(values=c("#56B4E9", "#E69F00", "#C0392B"))
-ggsave('Barplot_occupation.pdf')
-print(barplot_occupation)
+ggsave('Barplot_occupation.pdf', width= 10, height=5)
+#print(barplot_occupation)
 
 
 #barplot with grouped bars per occupation without natural death
 pct_without_natural <- pct[!(pct$category=='Natural'),]
-pct_barplot_without_natural <- ggplot(data = pct_without_natural) +
+barplot_without_natural <- ggplot(data = pct_without_natural) +
   aes(fill=category, y=percentage, x=Type) +
   xlab('Occupation') +
   ylab('Deaths in percentage') +
@@ -57,22 +57,28 @@ pct_barplot_without_natural <- ggplot(data = pct_without_natural) +
   theme_light() +
   geom_bar(position="dodge", stat="identity") +
   scale_fill_manual(values=c("#E69F00", "#C0392B"))
+ggsave('Barplot_without_natural.pdf', width= 10, height=5)
+#print(barplot_without_natural)
 
-#lineplot for violence
+#make year integer
 people_categorized$year <-as.integer(format(people_categorized$Death_date, "%Y"))
 data_with_year <- people_categorized |>
   select(year, Type, category) |>
+#make 2 categories for occupation: activists, politicians and other
   mutate("occupation"=
            ifelse((Type=='Activist'| Type=='Politician'),
          "civic",
          "other"))|>
   group_by(year, occupation, category) |>
+#get total numbers of death by year and occupation
   summarize(Count=n()) |>
   filter(!is.na(year)) |>
   subset(year> 1600) |>
   pivot_wider(names_from = category,
-              values_from = Count) #|>
+              values_from = Count) 
+
 data_with_year[is.na(data_with_year)] <- 0
+#get percentages for different types of death
 data_with_year <- data_with_year |>
   mutate(total=sum(natural + suicide + violent)) |>
   summarise(Natural=(natural/total)*100, 
@@ -80,6 +86,7 @@ data_with_year <- data_with_year |>
             Suicide=(suicide/total)*100) |>
   subset(year> 1850)
 
+#make decades from years
 data_decade <- data_with_year |>
   mutate(
     decade = floor(year / 10) * 10
@@ -99,23 +106,31 @@ data_decade_other<- data_decade |>
   subset(occupation=='other') |>
   subset (category != 'Natural')
 
+#plotting line graph for civic group
 lineplot_civic <- ggplot(data = data_decade_civic) +
   aes(x=decade, y=percentage, color=category) +
-  #xlab("") +
-  #ylab("Percentage of violent death within year") +
+  xlab("Decade") +
+  ylab("Death Percentage of Politicians and Activists") +
+  ylim(NA, 75) +
   theme_light() +
   geom_smooth(aes(fill = category)) +
   scale_fill_manual(values=c("#E69F00", "#C0392B")) +
   scale_color_manual(values=c("#E69F00", "#C0392B"))
+ggsave('Lineplot_civic.pdf', width= 10, height=5)
+print(lineplot_civic)
 
+#plotting line graph for other group
 lineplot_other <- ggplot(data = data_decade_other) +
   aes(x=decade, y=percentage, color=category) +
-  #xlab("") +
-  #ylab("Percentage of violent death within year") +
+  xlab("Decade") +
+  ylab("Death Percentage of Other Groups") +
+  ylim(NA, 75) +
   theme_light() +
   geom_smooth(aes(fill = category)) +
   scale_fill_manual(values=c("#E69F00", "#C0392B")) +
   scale_color_manual(values=c("#E69F00", "#C0392B"))
+ggsave('Lineplot_other.pdf', width= 10, height=5)
+print(lineplot_other)
 
 #lineplot_pct <- ggplot(data = data_decade_civic) +
 #  aes(x=decade, y=percentage, fill=occupation) +
@@ -123,9 +138,3 @@ lineplot_other <- ggplot(data = data_decade_other) +
 #  ylab("Percentage of violent death within year") +
 #  theme_light() +
 #  geom_bar(position='stack', stat='identity')
-
-
-#print(lineplot_civic)
-#print(lineplot_other)
-#print(pct_barplot_without_natural)
-
