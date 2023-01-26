@@ -40,21 +40,33 @@ pct_barplot_1 <- ggplot(data = pct) +
   xlab('Occupation') +
   ylab('Deaths in Percentage') +
   labs(fill='Death Cause') +
-  labs(title= 'Percentage of deaths by occupation and death cause type') +
   theme_light() +
   geom_bar(position="stack", stat="identity") +
   scale_fill_manual(values=c("#56B4E9", "#E69F00", "#C0392B"))
 
-#barplot with grouped bars per occupation
-pct_barplot_2 <- ggplot(data = pct) +
+
+#barplot with grouped bars per occupation without natural death
+pct_without_natural <- pct[!(pct$category=='Natural'),]
+pct_barplot_without_natural <- ggplot(data = pct_without_natural) +
   aes(fill=category, y=percentage, x=Type) +
   xlab('Occupation') +
   ylab('Deaths in percentage') +
   labs(fill='Death Cause') +
-  labs(title= 'Percentage of deaths by occupation and death cause type') +
   theme_light() +
   geom_bar(position="dodge", stat="identity") +
-  scale_fill_manual(values=c("#56B4E9", "#E69F00", "#C0392B"))
-  ##56B4E9
+  scale_fill_manual(values=c("#E69F00", "#C0392B"))
+
+#barplot with grouped bars per occupation
+#pct_barplot_2 <- ggplot(data = pct) +
+#  aes(fill=category, y=percentage, x=Type) +
+#  xlab('Occupation') +
+#  ylab('Deaths in percentage') +
+#  labs(fill='Death Cause') +
+#  labs(title= 'Percentage of deaths by occupation and death cause type') +
+#  theme_light() +
+#  geom_bar(position="dodge", stat="identity") +
+#  scale_fill_manual(values=c("#56B4E9", "#E69F00", "#C0392B"))
+
 print(pct_barplot_1)
-print(pct_barplot_2)
+print(pct_barplot_without_natural)
+#print(pct_barplot_2)
