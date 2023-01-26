@@ -35,7 +35,7 @@ pct <- type_category_count |>
                values_to = 'percentage')
 
 #barplot with stacked bars per occupation
-pct_barplot_1 <- ggplot(data = pct) +
+barplot_occupation <- ggplot(data = pct) +
   aes(fill=category, y=percentage, x=Type) +
   xlab('Occupation') +
   ylab('Deaths in Percentage') +
@@ -43,6 +43,8 @@ pct_barplot_1 <- ggplot(data = pct) +
   theme_light() +
   geom_bar(position="stack", stat="identity") +
   scale_fill_manual(values=c("#56B4E9", "#E69F00", "#C0392B"))
+ggsave('Barplot_occupation.pdf')
+print(barplot_occupation)
 
 
 #barplot with grouped bars per occupation without natural death
@@ -123,8 +125,7 @@ lineplot_other <- ggplot(data = data_decade_other) +
 #  geom_bar(position='stack', stat='identity')
 
 
-print(lineplot_civic)
-print(lineplot_other)
-#print(pct_barplot_1)
+#print(lineplot_civic)
+#print(lineplot_other)
 #print(pct_barplot_without_natural)
 
