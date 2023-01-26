@@ -19,6 +19,10 @@ def filter_funct(people_file):
             if isinstance(person['ontology/deathCause_label'], list):
                 person['ontology/deathCause_label'] = person['ontology/deathCause_label'][0]
             people_filtered.append(person)
+    for person in people_filtered:    #loop to filter out death date that is a list
+        if 'ontology/deathDate' in person:
+            if isinstance(person['ontology/deathDate'], list):
+                person['ontology/deathDate'] = person['ontology/deathDate'][0] #only add the first element
 
     for person in people_filtered:      #loop to filter for different occupations
         if 'http://purl.org/dc/elements/1.1/description' in person:

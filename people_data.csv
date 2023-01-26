@@ -27,7 +27,7 @@ Ann_Marcus,Artist,1921-08-22,2014-12-03,Bladder cancer
 Ann_Pudeator,Other,,1692-10-02,Capital punishment
 Ann_Tyrrell,Artist,1909-02-06,1983-07-20,Myocardial infarction
 Anna_Blythe_Speas,Other,,1898-07-06,Abscess
-Anna_Lizaran,Artist,1944-08-31,"['2013-01-12', '2013-01-13']",Cancer
+Anna_Lizaran,Artist,1944-08-31,2013-01-12,Cancer
 Anna_Maria_Calhoun_Clemson,Other,1817-02-13,1875-09-22,Myocardial infarction
 Annalena_Tonelli,Activist,1943-04-02,2003-10-05,Assassination
 Anne_Turner_(murderer),Other,1576-01-05,1615-11-15,Hanging
@@ -52,7 +52,7 @@ Alexander_Calvit,Other,1784-06-17,1836-01-07,Pneumonia
 Alexander_Gauge,Artist,1914-07-29,1960-08-29,Suicide
 "Alexander_Pearson,_Jr.",Other,1895-11-12,1924-09-02,Aviation accidents and incidents
 Alexander_S._Williams,Other,1839-07-09,1917-03-25,Death by natural causes
-Alexander_Zeisal_Bielski,Other,1912-10-19,"['1995-07-18', '1995-08-18']",Myocardial infarction
+Alexander_Zeisal_Bielski,Other,1912-10-19,1995-07-18,Myocardial infarction
 Alfred_M._Boyce,Other,1901-05-02,1997-07-11,Cancer
 Alfred_Müller_(entrepreneur),Businessperson,,,The Holocaust
 Ali_al-Sayyed,Other,1985-07-15,2014-08-28,ISIL beheading incidents
@@ -106,7 +106,7 @@ Abdullah_Abdurahman,Politician,1872-12-18,1940-02-02,Cardiac arrest
 Abdullah_al-Asiri,Other,,2009-08-27,Suicide attack
 Aboud_Rogo,Other,,2012-08-27,Gunshot
 Ada_Comstock,Other,1876-12-11,1973-12-12,Heart failure
-Admiral_Dot,Other,,"['1918-10-28', '1918-10-29']",1918 flu pandemic
+Admiral_Dot,Other,,1918-10-28,1918 flu pandemic
 Adnan_Patrawala_murder_case,Other,1990-09-21,2007-08-19,Homicide
 Adolf_H._Lundin,Businessperson,1932-12-19,2006-09-30,Leukemia
 Adolph_B._Spreckels,Businessperson,1857-01-05,1924-06-28,Pneumonia
@@ -133,9 +133,9 @@ Barclay_Harding_Warburton_II,Other,1898-06-15,1936-11-26,Gunshot
 Bartlett_S._Durham,Businessperson,1824-11-03,1859-02-02,Pneumonia
 Basanti_Dulal_Nagchaudhuri,Other,1917-09-06,2006-06-25,Cerebral infarction
 Bassam_Zuamut,Artist,1951-03-27,2004-10-16,Renal failure
-Bedri_Rahmi_Eyüboğlu,Artist,,"['1973-09-21', '1975-09-21']",Pancreatic cancer
+Bedri_Rahmi_Eyüboğlu,Artist,,1973-09-21,Pancreatic cancer
 Ben_Boloff,Other,,1932-10-12,Tuberculosis
-Ben_Bowen,Other,2002-11-14,"['2005-02-25', '2005-03-25']",Brain tumor
+Ben_Bowen,Other,2002-11-14,2005-02-25,Brain tumor
 Ben_Breedlove,Other,1993-08-08,2011-12-25,Cardiac arrest
 Ben_Byer,Artist,1971-01-08,2008-07-03,Amyotrophic lateral sclerosis
 Ben_Carter_(actor),Artist,1910-02-10,1946-12-12,Myocardial infarction
@@ -181,7 +181,7 @@ Bob_Allen_(surgeon),Other,,,Apoplexy
 Bob_Burman,Other,1884-04-23,1916-04-08,Traffic collision
 Bob_DeLaney,Other,,2008-11-25,Stroke
 Bob_Grant_(actor),Artist,"['1910-04-14', '1932-04-21']",2003-11-08,Suicide
-Bob_Haymes,Artist,1923-03-29,"['1989-01-27', '1989-01-28']",Amyotrophic lateral sclerosis
+Bob_Haymes,Artist,1923-03-29,1989-01-27,Amyotrophic lateral sclerosis
 Bob_Holt_(actor),Artist,1928-12-28,1985-08-02,Myocardial infarction
 Bob_Marley,Artist,1945-02-06,1981-05-11,Melanoma
 Bob_Smalhout,Other,1927-10-13,2015-07-02,Renal failure
@@ -217,7 +217,7 @@ Byron_Sunderland,Other,1819-11-22,1901-06-30,Embolism
 Børge_Johannes_Lauritsen,Other,1916-10-22,1944-06-23,Ballistic trauma
 B.S._Pully,Artist,1910-05-14,1972-01-06,Myocardial infarction
 Bahiya_Al_Aradi,Other,,2011-03-21,Shotgun shell
-Charles_McDonnell_(police_officer),Other,1841-11-18,"['1888-08-14', '1888-08-15']",Myocardial infarction
+Charles_McDonnell_(police_officer),Other,1841-11-18,1888-08-14,Myocardial infarction
 Charles_Miller_(gambler),Other,1851-01-01,1881-11-07,Murder
 Charles_Norris_(medical_examiner),Other,1867-12-04,1935-09-11,Heart failure
 Charles_R._Adrian,Other,1922-03-12,2004-05-28,Diabetes mellitus
@@ -293,7 +293,7 @@ Charles_DeWitt_Watts,Other,1917-09-21,2004-07-12,Diabetes mellitus
 Charles_Devlin,Artist,,1881-02-01,Pneumonia
 Charles_E._Courtney,Other,1849-11-13,1920-07-17,Apoplexy
 Charles_G._Shanks,Other,,1895-07-24,Cardiovascular disease
-Charles_Garry,Other,1909-03-17,"['1991-08-16', '1991-10-16']",Stroke
+Charles_Garry,Other,1909-03-17,1991-08-16,Stroke
 Charles_Gifkins,Other,1856-02-19,1897-01-31,Suicide
 Charles_Herbert_Locke,Businessperson,"['1910-09-21', '1910-09-24']",1977-05-15,Myocardial infarction
 Charles_Jasper_Glidden,Other,1857-08-29,1927-09-11,Cancer
@@ -319,8 +319,8 @@ David_Haskell,Artist,1948-06-04,2000-08-30,Brain tumor
 "David_Montagu,_4th_Baron_Swaythling",Other,1928-08-06,1998-07-01,Leukemia
 David_Palecek,Other,1972-08-08,2010-02-16,Staphylococcus
 David_Reimer,Other,1965-08-22,2004-05-04,Suicide
-David_Richmond_(activist),Activist,1941-04-20,"['1990-07-12', '1990-12-07']",Lung cancer
-David_Sweetman,Artist,"['1943-03-16', '1943-03-18']","['2002-04-07', '2002-04-08']",Multiple system atrophy
+David_Richmond_(activist),Activist,1941-04-20,1990-07-12,Lung cancer
+David_Sweetman,Artist,"['1943-03-16', '1943-03-18']",2002-04-07,Multiple system atrophy
 David_Swift_(director),Other,1919-07-27,2001-12-31,Heart failure
 David_Voelker,Other,1953-05-13,2013-05-21,Respiratory disease
 David_Walsh_(mining),Businessperson,1945-08-11,1998-06-04,Aneurysm
@@ -360,7 +360,7 @@ Dimitar_Obshti,Other,,1873-01-10,Hanging
 Dina_Manfredini,Other,1897-04-04,2012-12-17,Infection
 Dina_de_Marco,Artist,1937-07-06,1998-06-17,Cancer
 Dmitry_Okhotsimsky,Other,1921-02-26,2005-12-18,Cancer
-Doe_Avedon,Artist,1925-04-07,"['2011-12-18', '2011-12-23']",Pneumonia
+Doe_Avedon,Artist,1925-04-07,2011-12-18,Pneumonia
 Dolores_Della_Penna,Other,1954-12-13,,Homicide
 Dolores_Guadalupe_García_Escamilla,Other,,2005-08-16,Liver failure
 Don_C._Harvey,Artist,1911-12-12,1963-04-23,Myocardial infarction
@@ -371,7 +371,7 @@ Don_Rhymer,Artist,1961-02-23,2012-11-28,Head and neck cancer
 Don_Taylor_(American_actor_and_director),Artist,1920-12-13,1998-12-29,Heart failure
 Donald_E._Stewart,Artist,1930-01-24,1999-04-28,Cancer
 Donald_J._Tyson,Businessperson,1930-04-21,2011-01-06,Lung cancer
-Donald_Justin_Wolfram,Other,1919-11-13,"['2003-08-25', '2013-11-03']",Pancreatic cancer
+Donald_Justin_Wolfram,Other,1919-11-13,2003-08-25,Pancreatic cancer
 Dora_Hand,Other,,1878-10-04,Gunshot
 Dorit_Schmiel,Other,1941-04-25,1962-02-19,Schießbefehl
 Dorothy_Hood,Artist,1919-08-27,2000-10-28,Breast cancer
@@ -453,7 +453,7 @@ Erik_Briand_Clausen,Other,1901-01-24,1945-03-29,Execution by firing squad
 Erik_Crone_(resistance_member),Other,1919-05-29,1945-02-27,Execution by firing squad
 Erna_Kelm,Other,1908-07-21,1962-06-11,Republikflucht
 Ernest_Boyd_MacNaughton,Other,1880-10-22,1960-08-24,Cancer
-Ernest_Cushing_Richardson,Other,1860-02-09,"['1939-06-03', '1939-06-29']",Angina pectoris
+Ernest_Cushing_Richardson,Other,1860-02-09,1939-06-03,Angina pectoris
 Ernest_Eldridge,Other,1897-07-18,1937-10-27,Pneumonia
 Ernesto_Alonso,Other,1917-02-28,2007-08-07,Pneumonia
 Ernie_Baron,Other,1940-08-15,2006-01-23,Myocardial infarction
@@ -491,7 +491,7 @@ Frank_Joslyn_Baum,Other,1883-12-03,1958-12-02,Myocardial infarction
 Frank_Moss_(lawyer),Activist,1860-03-16,1920-06-05,Cardiovascular disease
 Frank_Ripploh,Artist,1949-09-02,2002-06-24,Cancer
 Frank_Tinney,Artist,1878-03-29,1940-11-28,Lung
-Frank_Wilcox,Artist,1907-03-17,"['1974-03-03', '1974-03-04']",Myocardial infarction
+Frank_Wilcox,Artist,1907-03-17,1974-03-03,Myocardial infarction
 Frank_de_Kova,Artist,1910-03-17,1981-10-15,Heart failure
 Frankie_Abernathy,Other,1981-12-21,2007-06-09,Cystic fibrosis
 Frankie_Randall_(singer),Artist,1938-01-11,2014-12-28,Lung cancer
@@ -508,8 +508,8 @@ Frederick_Yuengling,Other,1848-01-26,1899-01-02,Pneumonia
 Frei_Tito,Other,1945-09-14,1974-08-10,Suicide
 Friedrich_Akel,Politician,1871-09-05,1941-07-03,NKVD
 Fritz_Leiber_(Sr.),Artist,1882-01-31,1949-10-14,Myocardial infarction
-Félix_Pissarro,Artist,1874-07-24,"['1897-11-25', '1897-11-29']",Tuberculosis
-F._D._Reeve,Artist,1928-09-18,"['2013-06-28', '2018-09-13']",Diabetes mellitus
+Félix_Pissarro,Artist,1874-07-24,1897-11-25,Tuberculosis
+F._D._Reeve,Artist,1928-09-18,2013-06-28,Diabetes mellitus
 Fahd_al-Quso,Other,1974-11-12,2012-05-06,Central Intelligence Agency
 Fang_Xiaoru,Other,,,Nine familial exterminations
 Farzad_Kamangar,Activist,,2010-05-09,Capital punishment
@@ -533,7 +533,7 @@ Frances_Gifford,Artist,1920-12-07,1994-01-22,Chronic obstructive pulmonary disea
 Gary_McFarland,Artist,1933-10-23,1971-11-03,Methadone
 Gary_Miller_(singer),Artist,,1968-06-15,Myocardial infarction
 Gaston_Calmette,Other,"['1858-06-30', '1858-07-30']",1914-03-16,Henriette Caillaux
-Geoff_Workman,Other,1947-09-21,"['2010-01-21', '2010-01-28']",Liver failure
+Geoff_Workman,Other,1947-09-21,2010-01-21,Liver failure
 Geoffrey_Bowers,Other,1953-12-29,1987-09-30,AIDS
 Geoffrey_Thompson_(businessman),Businessperson,1936-11-16,2004-06-12,Aneurysm
 Georg_Maria_Stenz,Other,1869-11-22,1928-04-23,Stroke
@@ -579,7 +579,7 @@ Gino_Piserchio,Artist,1944-09-05,1989-03-22,AIDS
 G._Narasimhan,Other,1916-02-28,1977-07-05,Myocardial infarction
 Gale_Robbins,Artist,1921-05-07,1980-02-18,Lung cancer
 Galen_Porter,Other,,1883-03-30,Pneumonia
-Garry_Walberg,Artist,1921-06-10,"['2012-03-26', '2012-03-27']",Respiratory disease
+Garry_Walberg,Artist,1921-06-10,2012-03-26,Respiratory disease
 Girard_B._Henderson,Businessperson,1905-02-25,1983-11-16,Myocardial infarction
 Giulio_Bosetti,Artist,1930-12-26,2009-12-24,Cancer
 Glenda_Adams,Artist,1939-12-30,2007-07-11,Ovarian cancer
@@ -621,7 +621,7 @@ Horrie_Knight,Businessperson,1915-12-01,1990-06-06,Esophageal cancer
 Howard_Caine,Artist,"['1926-01-02', '1928-01-02']",1993-12-28,Myocardial infarction
 Howard_Sochurek,Other,,1994-04-25,Liver cancer
 Howard_Thompson_(film_critic),Other,1919-10-25,2002-03-10,Pneumonia
-Howdy_Wilcox_II,Other,1905-02-20,"['1946-10-13', '1946-11-13']",Traffic collision
+Howdy_Wilcox_II,Other,1905-02-20,1946-10-13,Traffic collision
 Hubert_Beaumont_Phipps,Other,1905-11-12,1969-08-16,Myocardial infarction
 Hugh_Auchincloss_Steers,Artist,,1995-03-01,AIDS
 Hugh_Bradner,Other,1915-11-05,2008-05-05,Pneumonia
@@ -665,7 +665,7 @@ Helen_Dunbar,Artist,1863-10-10,1933-08-28,Arthritis
 Helen_Gardiner,Activist,1938-07-18,2008-07-22,Cancer
 Helen_Jerome_Eddy,Artist,1897-02-25,1990-01-27,Heart failure
 Helen_Twelvetrees,Artist,1908-12-25,1958-02-13,Suicide methods
-Helene_Demuth,Other,"['1820-12-31', '1851-06-23']","['1890-11-04', '1929-01-28']",Heart failure
+Helene_Demuth,Other,"['1820-12-31', '1851-06-23']",1890-11-04,Heart failure
 Henio_Zytomirski,Other,1933-03-25,1942-11-09,Gas chamber
 Henning_Andersen,Other,1917-07-16,1944-06-29,Ballistic trauma
 Henning_Carlsen,Other,1927-06-04,2014-05-30,Death by natural causes
@@ -737,10 +737,10 @@ Jimmy_Snyder_(racing_driver),Other,1909-03-10,1939-06-29,Driver deaths in motors
 Joakim_Puhk,Businessperson,1888-05-25,1942-09-14,NKVD
 Joanna_Moore,Artist,1934-11-10,1997-11-22,Lung cancer
 Joanne_M._Holden,Other,1946-09-05,2014-10-02,Cancer
-Jock_Mahoney,Artist,1919-02-07,"['1989-12-14', '1989-12-15']",Stroke
+Jock_Mahoney,Artist,1919-02-07,1989-12-14,Stroke
 Joe_Albi,Other,1892-10-05,1962-05-08,Amyotrophic lateral sclerosis
 Joe_Cantada,Other,1942-03-15,1992-03-22,Lung cancer
-Joe_Dougherty,Other,1898-11-04,"['1978-04-19', '1978-12-19']",Myocardial infarction
+Joe_Dougherty,Other,1898-11-04,1978-04-19,Myocardial infarction
 Joe_E._Lewis,Artist,1902-01-12,1971-06-04,Myocardial infarction
 "Joe_Howard,_Jr.",Other,1833-06-03,1908-03-31,Renal failure
 Joe_Hyams,Other,1923-06-06,2008-11-08,Coronary artery disease
@@ -767,7 +767,7 @@ John_Carmichael_Jenkins,Other,1809-12-13,1855-10-14,Yellow fever
 John_Cheever_Cowdin,Other,1889-03-17,1960-09-16,Myocardial infarction
 John_Cyril_Porte,Other,1884-02-26,1919-10-22,Tuberculosis
 John_Decker_(fire_chief),Other,1823-05-15,1892-11-18,Pneumonia
-James_McCoubrey,Other,1901-09-13,"['2011-07-05', '2013-07-05']",Pneumonia
+James_McCoubrey,Other,1901-09-13,2011-07-05,Pneumonia
 James_Millhollin,Artist,1915-08-23,1993-05-23,Cancer
 James_Norton_(solicitor),Politician,1795-07-27,1862-08-31,Systemic lupus erythematosus
 James_P._Hosty,Other,1924-08-28,2011-06-10,Prostate cancer
@@ -834,7 +834,7 @@ John_S._Knight,Other,1894-10-26,1981-06-16,Myocardial infarction
 John_S._Lesmeister,Politician,1955-10-03,2006-02-28,Death by natural causes
 John_Sebastian_Marlowe_Ward,Other,1885-12-22,1949-07-02,Myocardial infarction
 John_Selman,Other,1839-11-16,1896-04-06,George Scarborough
-John_Smith_(actor),Artist,1931-03-06,"['1995-01-25', '2015-01-25']",Cirrhosis
+John_Smith_(actor),Artist,1931-03-06,1995-01-25,Cirrhosis
 John_Sontag,Other,1861-05-27,1893-07-03,Tetanus
 John_Thomas_Idlet,Other,"['1930-12-31', '1931-12-31']",2002-03-29,Heart failure
 John_Thomson_Mason_(1787–1850),Politician,1787-01-08,1850-04-17,Cholera
@@ -848,12 +848,12 @@ Jon_Stone,Artist,1931-04-13,1997-03-30,Amyotrophic lateral sclerosis
 Jonathas_Granville,Other,1785-12-05,,Assassination
 Jorge_Russek,Artist,1932-01-04,1998-07-30,Myocardial infarction
 Joseph-Alphonse-Omer_de_Valbelle,Other,1729-06-18,1818-11-18,Apoplexy
-Joseph_A._Bennett,Artist,1968-03-28,"['2015-04-13', '2015-04-15']",Suicide by hanging
+Joseph_A._Bennett,Artist,1968-03-28,2015-04-13,Suicide by hanging
 Joseph_Aloysius_Durick,Other,1914-10-13,1994-06-26,Cancer
 Joseph_Boyer,Other,,1930-10-24,Pneumonia
 Joseph_D._Bryant,Other,1845-03-12,1914-04-07,Diabetes mellitus
 Joseph_Dippolito,Other,1914-12-18,1974-01-14,Myocardial infarction
-Joseph_Humphreys,Other,"['1872-10-17', '1872-10-18']","['1936-07-10', '1937-07-10']",Stroke
+Joseph_Humphreys,Other,"['1872-10-17', '1872-10-18']",1936-07-10,Stroke
 Joseph_Isherwood,Other,1870-06-23,1937-10-24,Pneumonia
 Joseph_Kahahawai,Other,1909-12-25,1932-01-08,Homicide
 Joseph_M._Pallissard,Other,"['1886-01-04', '1911-10-20']",1960-05-24,Myocardial infarction
@@ -866,7 +866,7 @@ Josephine_Bracken,Other,1876-10-03,1902-03-15,Tuberculosis
 Josephine_Premice,Artist,1926-07-21,2001-04-13,Chronic obstructive pulmonary disease
 José_Carlos_Schwarz,Artist,1949-12-06,1977-05-27,Aeroflot Flight 331
 José_Ignacio_Cabrujas,Artist,1937-07-17,1995-10-21,Myocardial infarction
-José_María_Castiñeira_de_Dios,Other,1920-03-30,"['2015-05-02', '2015-05-12']",Pneumonia
+José_María_Castiñeira_de_Dios,Other,1920-03-30,2015-05-02,Pneumonia
 José_Montalvo,Other,1946-09-09,1994-08-15,Colorectal cancer
 José_Rizal,Activist,1861-06-19,1896-12-30,Execution by firing squad
 José_Wilker,Artist,1944-08-20,2014-04-05,Myocardial infarction
@@ -907,13 +907,13 @@ Jake_Bilardi,Other,1996-12-01,2015-03-11,Suicide attack
 Jam_Sebastian,Other,1986-03-20,2015-03-04,Lung cancer
 James_Augustine_Shannon,Other,1904-08-09,1994-05-20,Aortic aneurysm
 James_Barton_(actor),Artist,1890-11-01,1962-02-19,Myocardial infarction
-James_Brady_(criminal),Other,,"['1904-09-02', '1904-09-03']",Tuberculosis
+James_Brady_(criminal),Other,,1904-09-02,Tuberculosis
 James_Callahan_(actor),Artist,1930-10-04,2007-08-03,Esophageal cancer
 James_Carney_(American_priest),Other,,,Honduras
 James_David_Barber,Other,1930-07-31,2004-09-12,Primary progressive aphasia
 James_E._Lyon,Other,1927-08-25,1993-05-01,Pancreatic cancer
 James_E._Rogers,Other,1938-09-15,2014-06-14,Cancer
-James_Foley_(journalist),Other,1973-10-18,"['2014-08-19', '2014-08-20']",Decapitation
+James_Foley_(journalist),Other,1973-10-18,2014-08-19,Decapitation
 James_G._Hirsch,Other,1922-10-31,1987-05-25,Cancer
 James_H._Nicholson,Other,1916-09-14,1972-12-10,Brain tumor
 James_H._Snook,Other,1879-09-17,1930-02-28,Electric chair
@@ -933,9 +933,9 @@ Katharine_Sergeant_Angell_White,Artist,1892-09-17,1977-07-20,Myocardial infarcti
 Kathleen_Maguire,Artist,1925-09-27,1989-08-09,Esophageal cancer
 Kay_Aldridge,Artist,1917-07-09,1995-01-12,Myocardial infarction
 Kazuko_Yanaga,Artist,1947-04-14,2014-11-01,Sepsis
-Keene_Thompson,Artist,"['1884-11-15', '1885-11-15']","['1936-07-11', '1937-07-11']",Lobar pneumonia
-Keene_Thompson,Artist,"['1884-11-15', '1885-11-15']","['1936-07-11', '1937-07-11']",Lobar pneumonia
-Keene_Thompson,Artist,"['1884-11-15', '1885-11-15']","['1936-07-11', '1937-07-11']",Lobar pneumonia
+Keene_Thompson,Artist,"['1884-11-15', '1885-11-15']",1936-07-11,Lobar pneumonia
+Keene_Thompson,Artist,"['1884-11-15', '1885-11-15']",1936-07-11,Lobar pneumonia
+Keene_Thompson,Artist,"['1884-11-15', '1885-11-15']",1936-07-11,Lobar pneumonia
 Ken_Sansom,Artist,1927-04-02,2012-10-08,Stroke
 Ken_Talbot,Businessperson,1950-08-26,2010-06-19,2010 Cameroon Aéro Service CASA C-212 Aviocar crash
 Kenneth_W._Bilby,Businessperson,1918-10-07,1997-08-01,Leukemia
@@ -1008,7 +1008,7 @@ Les_Clark,Other,1907-11-17,1979-09-12,Cancer
 Leslie_Coombs_Brand,Businessperson,1859-05-12,1925-04-10,Prostate cancer
 Letitia_MacTavish_Hargrave,Other,,1854-09-18,Cholera
 Letitia_Woods_Brown,Other,1915-10-24,1976-08-03,Cancer
-Lew_Cody,Artist,1884-02-22,"['1934-05-21', '1934-05-31']",Myocardial infarction
+Lew_Cody,Artist,1884-02-22,1934-05-21,Myocardial infarction
 Lewis_Hutchinson,Other,,,Hanging
 Lie_Kim_Hok,Artist,1853-11-01,1912-05-06,Typhus
 Lillian_Feickert,Other,1877-07-20,1945-01-21,Cerebral hemorrhage
@@ -1030,7 +1030,7 @@ Lottie_Pickford,Artist,"['1893-06-09', '1895-06-09']",1936-12-09,Myocardial infa
 Lou_Butera,Other,1937-05-15,2015-06-26,Parkinson's disease
 Louie_Beltran,Other,1936-04-04,1994-09-06,Myocardial infarction
 Louis_Bloomfield,Businessperson,1906-08-08,1984-07-19,Myocardial infarction
-Louis_Carpenter_(judge),Other,1829-12-14,"['1863-08-21', '1916-01-21']",Lawrence Massacre
+Louis_Carpenter_(judge),Other,1829-12-14,1863-08-21,Lawrence Massacre
 Louis_Cohen,Other,1904-01-01,1939-01-28,Murder
 Louis_Conradt,Other,1950-01-30,2006-11-05,Ballistic trauma
 Louis_Falco,Artist,1942-08-02,1993-03-26,AIDS
@@ -1057,7 +1057,7 @@ Maniram_Dewan,Other,1806-04-17,1858-02-26,Hanging
 Manuel_Summers,Other,1935-03-26,1993-06-12,Colorectal cancer
 Manuel_Uribe,Other,1965-06-11,2014-05-26,Liver failure
 Maqoma,Other,,,Robben Island
-Marc_Aryan,Artist,"['1926-09-14', '1926-11-14']","['1985-09-30', '1985-11-30']",Cardiac arrest
+Marc_Aryan,Artist,"['1926-09-14', '1926-11-14']",1985-09-30,Cardiac arrest
 Marc_Hodler,Other,1918-10-26,2006-10-18,Stroke
 Marcel_Hillaire,Artist,1908-04-23,1988-01-01,Pulmonary embolism
 Marcelo_H._del_Pilar,Other,1850-08-30,1896-07-04,Tuberculosis
@@ -1085,7 +1085,7 @@ Merwin_K._Hart,Politician,1881-06-25,1962-11-30,Myocardial infarction
 Mia_Amber_Davis,Artist,1974-07-25,2011-05-10,Pulmonary embolism
 Michael_Blodgett,Artist,"['1939-09-26', '1940-09-26']",2007-11-14,Myocardial infarction
 Michael_Goldsmith,Other,1951-03-06,2009-11-01,Amyotrophic lateral sclerosis
-Michael_Larson,Other,1949-05-10,"['1999-01-16', '1999-02-16']",Head and neck cancer
+Michael_Larson,Other,1949-05-10,1999-01-16,Head and neck cancer
 Michael_P._Grace,Businessperson,,1920-09-20,Myocardial infarction
 Michael_Schildberger,Other,1938-04-04,2010-06-02,Prostate cancer
 Michael_Sellers_(actor),Artist,1954-04-02,2006-07-24,Myocardial infarction
@@ -1135,10 +1135,10 @@ Martino_Martini,Other,1614-09-20,1661-06-06,Cholera
 Marvin_Mirisch,Other,"['1918-03-19', '1919-03-19']",2002-11-17,Myocardial infarction
 Mary_Castle,Artist,1931-01-22,1998-04-29,Lung cancer
 Mary_Raftery,Artist,1957-12-21,2012-01-10,Ovarian cancer
-Mary_Sibbet_Copley,Other,1843-06-19,"['1929-06-06', '1929-06-09']",Pneumonia
+Mary_Sibbet_Copley,Other,1843-06-19,1929-06-06,Pneumonia
 Maryse_Guy_Mitsouko,Artist,,,Suicide
 María_Antonia_Santos_Plata,Other,1782-04-10,1819-06-28,Execution by firing squad
-María_Isabella_Cordero,Other,,"['2010-04-15', '2010-04-16']",Drive-by shooting
+María_Isabella_Cordero,Other,,2010-04-15,Drive-by shooting
 María_Santos_Gorrostieta_Salazar,Politician,,2012-11-15,Traumatic brain injury
 Mathew_Charles_Lamb,Other,1948-01-05,1976-11-07,Killed in action
 Mike_Kurtz,Other,,1904-11-24,Tuberculosis
@@ -1165,16 +1165,16 @@ Mortimer_Grimshaw,Activist,,1869-12-22,Tuberculosis
 Moses_Carpenter,Other,,1889-08-15,Fever
 Moses_H._Cone,Businessperson,1857-06-29,1908-12-08,Pulmonary edema
 Mostefa_Ben_Boulaïd,Politician,1917-02-05,1956-03-22,Killed in action
-Mozelle_Britton,Artist,1912-05-12,"['1953-05-18', '1954-05-18']",Myocardial infarction
+Mozelle_Britton,Artist,1912-05-12,1953-05-18,Myocardial infarction
 Mu_Guoguang,Other,,,Lymphoma
 Muhamed_Hadžijamaković,Politician,,1878-08-25,Austria-Hungary
 Muhammad_Al-Makki,Other,,,Death by natural causes
 Munawar_Zarif,Artist,1940-12-25,1976-04-29,Cirrhosis
 Murder_of_Maria_Colwell,Other,1965-03-26,1973-01-06,Head injury
-Murder_of_Marion_Parker,Other,"['1908-02-01', '1915-10-11']","['1928-10-19', '2011-10-27']",Homicide
+Murder_of_Marion_Parker,Other,"['1908-02-01', '1915-10-11']",1928-10-19,Homicide
 Murder_of_Martine_Vik_Magnussen,Other,1985-02-06,2008-03-14,Murder
 Murder_of_Sandeep_Kothari,Other,,2015-06-21,Strangling
-Murder_of_Tammy_Alexander,Other,1963-11-02,"['1979-11-08', '1979-11-09']",Homicide
+Murder_of_Tammy_Alexander,Other,1963-11-02,1979-11-08,Homicide
 Muriel_Landers,Artist,1921-10-27,1977-02-19,Stroke
 Musa_al-Kadhim,Other,0745-11-10,0799-09-04,Poison
 Müşfik_Kenter,Artist,1932-09-09,2012-08-15,Lung cancer
@@ -1203,7 +1203,7 @@ Ninfa_Laurenzo,Other,1924-05-11,2001-06-17,Bone tumor
 Nixman_Oryanga,Other,2001-09-11,,UPDF
 Noel_Dyson,Artist,1916-12-23,1995-06-29,Cancer
 Noel_T._Keen,Other,1940-08-13,2002-04-18,Leukemia
-Norberto_Longo,Other,"['1941-08-18', '1942-02-15']","['2003-04-19', '2003-04-21']",Myocardial infarction
+Norberto_Longo,Other,"['1941-08-18', '1942-02-15']",2003-04-19,Myocardial infarction
 Norm_Ferguson_(animator),Other,1902-09-02,1957-11-04,Myocardial infarction
 Norma_Crane,Artist,1928-11-10,1973-09-28,Breast cancer
 Norma_Donaldson,Artist,1928-07-08,1994-11-22,Cancer
@@ -1230,7 +1230,7 @@ Otmar_Gutmann,Other,1937-04-24,1993-10-13,Cancer
 Oton_Vinski,Other,1877-03-20,,The Holocaust
 Owen_Brown_(college_founder),Other,1771-02-16,1856-05-08,Pneumonia
 Patricia_Ziegfeld_Stephenson,Artist,1916-10-23,2008-04-11,Heart failure
-Patrick_Henry_Jones,Other,1830-11-20,"['1900-07-18', '1900-07-23']",Heart failure
+Patrick_Henry_Jones,Other,1830-11-20,1900-07-18,Heart failure
 Patrick_Roy_(TV_presenter),Other,1952-04-17,1993-02-18,Bone tumor
 Paul_D'Amato,Other,,1984-06-06,Myocardial infarction
 Paul_Donnelly_Paganucci,Businessperson,1931-04-18,2001-02-26,Laryngeal cancer
@@ -1243,7 +1243,7 @@ Paul_Popham,Activist,1941-10-06,1987-05-07,AIDS
 Paul_Ramsay,Businessperson,,2014-05-01,Myocardial infarction
 Paul_Regina,Artist,1956-10-25,2006-01-31,Liver cancer
 Paul_Reynolds_(commentator),Other,1949-10-04,2010-05-23,Leukemia
-Paul_Richards_(actor),Artist,1924-11-23,"['1974-10-12', '1974-12-10']",Cancer
+Paul_Richards_(actor),Artist,1924-11-23,1974-10-12,Cancer
 Paul_Sigler,Other,1934-02-19,2000-01-11,Myocardial infarction
 Paul_Sills,Other,1927-11-18,2008-06-02,Pneumonia
 Paul_Solomon,Other,1939-07-07,1994-03-04,Thai people
@@ -1289,7 +1289,7 @@ Philip_H._Iselin,Businessperson,1902-09-01,1976-12-28,Myocardial infarction
 Philip_Van_Zandt,Artist,1904-10-04,1958-02-15,Suicide
 Philotheus_Boehner,Other,1901-02-17,1955-05-22,Coronary thrombosis
 Pierre_Jalbert,Artist,1925-01-09,2014-01-22,Myocardial infarction
-Piet_Römer,Artist,1928-04-02,"['2011-01-17', '2012-01-17']",Cardiac arrest
+Piet_Römer,Artist,1928-04-02,2011-01-17,Cardiac arrest
 Pilar_Seurat,Artist,1938-07-25,2001-06-02,Lung cancer
 Poker_Alice,Other,1851-02-17,1930-02-27,Gallbladder
 Poppa_Neutrino,Artist,1933-10-15,2011-01-23,Heart failure
@@ -1355,10 +1355,10 @@ Russell_Scott,Other,1921-06-30,2012-08-27,Pneumonia
 Ruth_Duccini,Artist,1918-07-23,2014-01-16,Death by natural causes
 Ruth_Rowland_Nichols,Other,1901-02-23,1960-09-25,Drug overdose
 Ruth_U._Keeton,Other,,1997-12-14,Alzheimer's disease
-Ružica_Sokić,Artist,1934-12-14,"['2013-12-19', '2013-12-20']",Alzheimer's disease
+Ružica_Sokić,Artist,1934-12-14,2013-12-19,Alzheimer's disease
 Ryan_McHenry,Other,1987-12-13,2015-05-02,Osteosarcoma
 Rémi_Laurent,Artist,1957-10-12,1989-11-14,HIV
-Ram_Revilla,Artist,"['1988-02-12', '1989-02-12']","['2011-10-28', '2011-10-29']",Murder
+Ram_Revilla,Artist,"['1988-02-12', '1989-02-12']",2011-10-28,Murder
 Ramesh_Chandra_Bhanja,Other,,2015-03-18,Parkinson's disease
 Ramón_Sampedro,Activist,1943-01-05,1998-01-12,Assisted suicide
 Ramón_de_la_Fuente_Muñiz,Other,1921-08-29,2006-03-31,Cardiac arrest
@@ -1432,20 +1432,20 @@ Sherwood_Bailey,Artist,1923-08-06,1987-08-06,Cancer
 Shields_Green,Other,,1859-12-16,Hanging
 Shields_Warren,Other,1898-02-26,1980-07-01,Old age
 Shigeo_Ōdachi,Other,1892-01-05,1955-09-25,Stomach cancer
-Shinji_Maki,Other,"['1934-09-24', '1934-09-26']","['2013-04-28', '2013-04-29']",Suicide
+Shinji_Maki,Other,"['1934-09-24', '1934-09-26']",2013-04-28,Suicide
 Shirley_Finn,Other,,1975-06-23,Murder
 Shirley_Prestia,Artist,1947-08-18,2011-10-08,Brain tumor
 Shubha_Phutela,Artist,1991-05-05,2012-10-22,Jaundice
 Shun_Yashiro,Artist,1933-02-19,2003-06-25,Stroke
 Sibyl_Morrison,Other,1895-08-18,1961-12-29,Cancer
-Sigi_Ziering,Businessperson,1928-03-20,"['2000-11-12', '2000-11-20']",Brain tumor
+Sigi_Ziering,Businessperson,1928-03-20,2000-11-12,Brain tumor
 Sigmund_Sommer,Businessperson,1916-06-19,1979-04-30,Myocardial infarction
 Sigrid_Valdis,Artist,1935-09-21,2007-10-14,Lung cancer
 Simo_Drljača,Other,1947-08-06,1997-07-10,SFOR
 Simon_Monjack,Artist,1970-03-09,2010-05-23,Pneumonia
 Slavko_Hirsch,Other,1893-03-29,,The Holocaust
 Slađa_Guduraš,Other,1987-08-11,2014-12-10,Single-vehicle crash
-Slim_Summerville,Artist,1892-07-10,"['1946-01-05', '1946-01-06']",Stroke
+Slim_Summerville,Artist,1892-07-10,1946-01-05,Stroke
 Sogen_Kato,Other,1899-07-22,,Sokushinbutsu
 Solomon_Abudarham,Other,,,Yellow fever
 Sophia_Mirza,Other,,2005-11-25,Chronic fatigue syndrome
@@ -1471,7 +1471,7 @@ Stephen_Sutton,Activist,1994-12-16,2014-05-14,Colorectal cancer
 Stephen_Tredre,Artist,1963-07-17,1997-12-08,Bone tumor
 Sterling_C._Robertson,Politician,1785-10-02,1842-03-04,Pneumonia
 Steve_Irwin,Other,1962-02-22,2006-09-04,Stingray injury
-Steven_H._Scheuer,Other,1926-01-09,"['2014-05-31', '2014-06-01']",Heart failure
+Steven_H._Scheuer,Other,1926-01-09,2014-05-31,Heart failure
 Steven_Sotloff,Other,1983-05-11,2014-09-02,Decapitation
 S._Shamsuddin,Artist,1929-01-01,2013-06-04,Asthma
 S._Siddalingaiah,Other,,2015-03-12,Swine influenza
@@ -1480,11 +1480,11 @@ Saeed_Chmagh,Other,1967-01-01,2007-07-12,30 mm caliber
 Sahara_Sue,Other,,1979-08-14,Homicide
 Sait_Maden,Artist,,2013-06-19,Pneumonia
 Sakine_Cansız,Activist,,2013-01-09,Execution-style murder
-Saleem_Shahzad,Other,1970-11-03,"['2011-05-29', '2011-05-30']",Torture
+Saleem_Shahzad,Other,1970-11-03,2011-05-29,Torture
 Sally_Farmiloe,Artist,1948-07-14,2014-07-28,Metastatic breast cancer
 Sally_Hayfron,Other,1931-06-06,1992-01-27,Renal failure
 Salmah_Ismail,Artist,"['1935-01-21', '1935-01-22']",1983-04-25,Jaundice
-Salwa_Al_Katrib,Artist,1953-09-17,"['2009-03-02', '2009-03-04']",Cerebral hemorrhage
+Salwa_Al_Katrib,Artist,1953-09-17,2009-03-02,Cerebral hemorrhage
 Sam_Church,Other,1936-09-20,2009-07-14,Complication (medicine)
 Sam_M._Fleming,Other,,,Pneumonia
 Sam_Paul,Other,,1927-01-10,Nephritis
@@ -1499,7 +1499,7 @@ Samuel_Glazer,Businessperson,1923-02-24,2012-03-12,Leukemia
 Samuel_Greenberg,Artist,1893-12-13,1917-08-16,Tuberculosis
 Samuel_Mason,Other,,,Tomahawk (axe)
 Sandow_M._M._A._Chinnappa_Thevar,Other,1915-06-28,1978-09-08,Myocardial infarction
-Sangeen_Wali_Khan,Politician,"['1958-06-07', '1959-06-07']","['2008-06-25', '2008-06-28']",Lung cancer
+Sangeen_Wali_Khan,Politician,"['1958-06-07', '1959-06-07']",2008-06-25,Lung cancer
 Stu_Gilliam,Other,1943-07-27,2013-10-10,Lung cancer
 Stuart_Robert_Glass,Other,1951-06-25,1978-08-13,Gunshot
 Studley_Oldham_Burroughs,Artist,1892-12-26,1949-12-23,Embolism
@@ -1566,7 +1566,7 @@ Tony_Fenton,Other,1961-03-25,2015-03-11,Melanoma
 Tony_Steedman,Artist,1927-08-21,2001-02-04,Alzheimer's disease
 Tony_Young_(actor),Artist,1937-06-28,2002-02-26,Lung cancer
 Trapper_Nelson,Other,,,Suicide
-Travis_M._Kerr,Businessperson,1902-07-28,"['1970-06-07', '1970-07-07']",Cerebral hemorrhage
+Travis_M._Kerr,Businessperson,1902-07-28,1970-06-07,Cerebral hemorrhage
 "Tremayne_Rodd,_3rd_Baron_Rennell",Other,1935-06-28,2006-12-09,Cancer
 Trent_Lehman,Artist,1961-02-23,1982-01-18,Suicide by hanging
 Trevor_Rhone,Artist,1940-03-24,2009-09-15,Myocardial infarction
@@ -1580,7 +1580,7 @@ Tahar_Touati,Other,,,Capital punishment
 Takashi_Taniguchi,Artist,1947-07-05,2012-12-27,Disease
 Tandi_Iman_Dupree,Other,1978-08-13,2005-12-31,AIDS
 Tang_Junyi,Other,1909-01-17,1978-02-02,Lung cancer
-Tanner_Smith,Other,,"['1919-07-26', '1919-07-28']",Murder
+Tanner_Smith,Other,,1919-07-26,Murder
 Tara_Correa-McMullen,Artist,1989-05-24,2005-10-21,Homicide
 Tarak_Mekki,Politician,1958-06-27,2012-12-31,Cardiac arrest
 Telman_Adigozalov,Artist,1953-07-17,2010-04-15,Myocardial infarction
@@ -1605,17 +1605,17 @@ Vijaygupta_Maurya,Artist,1909-03-26,1992-07-10,Parkinson's disease
 Viktor_Popkov,Activist,1946-06-17,2001-06-02,Assassination
 Viktor_Rosenzweig,Artist,,1941-07-09,The Holocaust
 Viola_Herms_Drath,Artist,1920-02-08,2011-08-11,Homicide
-Virginia_Lee_Corbin,Artist,1910-12-05,"['1942-06-04', '1942-06-05']",Tuberculosis
+Virginia_Lee_Corbin,Artist,1910-12-05,1942-06-04,Tuberculosis
 Vittorio_Arrigoni,Activist,1975-02-04,2011-04-15,Tawhid al-Jihad (Gaza Strip)
 Viveka_Babajee,Artist,1973-05-27,2010-06-25,Suicide by hanging
-Vivian_Dandridge,Artist,1921-04-22,"['1991-10-21', '1991-10-26']",Stroke
+Vivian_Dandridge,Artist,1921-04-22,1991-10-21,Stroke
 Vladimir_Sokoloff,Artist,1889-12-26,1962-02-15,Stroke
 Vlado_Singer,Politician,1908-10-21,,The Holocaust
 Vojislav_Vojinović,Other,,,Plague (disease)
 Vonetta_McGee,Artist,1945-01-14,2010-07-09,Cardiac arrest
 Vyacheslav_Kotyonochkin,Other,1927-06-20,2000-11-20,Death by natural causes
 W._Alton_Jones,Businessperson,1891-04-19,1962-03-01,American Airlines Flight 1
-W._Tate_Brady,Activist,1870-01-20,"['1925-08-25', '1925-08-29']",Suicide
+W._Tate_Brady,Activist,1870-01-20,1925-08-25,Suicide
 Wade_Dominguez,Artist,1966-05-10,1998-08-26,Respiratory failure
 Waldo_Hunt,Other,1920-11-28,2009-11-06,Heart failure
 Walter_Connolly,Artist,1887-04-08,1940-05-28,Stroke
@@ -1629,15 +1629,15 @@ Walter_Sande,Artist,1906-07-09,1971-11-22,Myocardial infarction
 Warren_Casey,Artist,1935-04-20,1988-11-08,AIDS
 Warren_Vanders,Artist,1930-05-23,2009-11-27,Lung cancer
 Wende_Wagner,Artist,1941-12-06,1997-02-26,Cancer
-Wendie_Jo_Sperber,Artist,1958-09-15,"['2005-11-29', '2006-11-29']",Breast cancer
+Wendie_Jo_Sperber,Artist,1958-09-15,2005-11-29,Breast cancer
 Werner_Heyking,Artist,1913-06-14,1974-10-10,Head and neck cancer
 Werner_Veigel,Other,1928-11-09,1995-05-02,Brain tumor
 Whitney_Robson_Harris,Other,1912-08-12,2010-04-21,Cancer
 Widad_Hamdi,Artist,1924-03-07,1994-03-26,Stabbing
 Wilfrid_Lawson_(actor),Artist,1900-01-14,1966-10-10,Myocardial infarction
-Willard_Lamb_Velie,Businessperson,,"['1928-09-24', '1928-10-24']",Embolism
+Willard_Lamb_Velie,Businessperson,,1928-09-24,Embolism
 Willard_Parker,Artist,1912-02-05,1996-12-04,Myocardial infarction
-Willi_Ninja,Artist,1961-04-12,"['2006-09-02', '2012-04-06']",AIDS
+Willi_Ninja,Artist,1961-04-12,2006-09-02,AIDS
 "William_Backhouse_Astor,_Jr.",Businessperson,1829-07-12,1892-04-25,Aneurysm
 William_Bakewell,Artist,1908-05-02,1993-04-15,Leukemia
 William_Braine,Other,,1846-04-03,Lead poisoning
@@ -1670,7 +1670,7 @@ William_Worthy,Other,1921-07-07,2014-05-04,Alzheimer's disease
 "William_Zeckendorf,_Jr.",Businessperson,1929-10-31,2014-02-12,Respiratory failure
 Willie_Barrow,Activist,1924-12-07,2015-03-12,Respiratory failure
 Willie_Fung,Artist,1896-03-03,1945-04-16,Coronary occlusion
-Win_Ng,Other,1936-04-13,"['1991-09-06', '1991-09-07']",AIDS
+Win_Ng,Other,1936-04-13,1991-09-06,AIDS
 Windell_Middlebrooks,Artist,1979-01-08,2015-03-09,Pulmonary embolism
 Winfried_Freudenberg,Other,1956-08-29,1989-03-08,East Berlin
 Winston_Rekert,Artist,,2012-09-14,Cancer
@@ -1688,7 +1688,7 @@ Yasushi_Nirasawa,Artist,1963-08-26,2016-02-02,Renal failure
 Yehuda_Getz,Other,,1995-09-17,Myocardial infarction
 Zack_du_Plessis,Artist,,,Cancer
 Zander_Hollander,Artist,1923-03-24,2014-04-11,Alzheimer's disease
-Zeituni_Onyango,Other,1952-05-29,"['2014-04-07', '2014-04-08']",Breast cancer
+Zeituni_Onyango,Other,1952-05-29,2014-04-07,Breast cancer
 Zheng_Cao,Other,1966-07-09,2013-02-21,Lung cancer
 Zo_d'Axa,Artist,1864-05-28,1930-08-30,Suicide
 Zvonimir_Richtmann,Other,1901-11-22,1941-07-09,The Holocaust
