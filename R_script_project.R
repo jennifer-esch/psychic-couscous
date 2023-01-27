@@ -11,7 +11,7 @@ people_data_selected_columns <- people_data |>
          'Death_cause' = 'ontology/deathCause_label'
          )
 
-death_cause_mapping <- read_csv('mapping_death_causes.csv')
+death_cause_mapping <- read_csv('mapping_deaths.csv')
 
 people_categorized <- left_join(people_data_selected_columns, 
                                 death_cause_mapping, by="Death_cause")
@@ -109,27 +109,29 @@ data_decade_other<- data_decade |>
 #plotting line graph for civic group
 lineplot_civic <- ggplot(data = data_decade_civic) +
   aes(x=decade, y=percentage, color=category) +
+  labs(title='Activists and Politicians')+
   xlab("Decade") +
-  ylab("Death Percentage of Politicians and Activists") +
-  ylim(NA, 75) +
+  ylab("Death percentage") +
+  ylim(-25,75)+
   theme_light() +
   geom_smooth(aes(fill = category)) +
   scale_fill_manual(values=c("#E69F00", "#C0392B")) +
   scale_color_manual(values=c("#E69F00", "#C0392B"))
-ggsave('Lineplot_civic.pdf', width= 10, height=5)
+ggsave('Lineplot_civic.pdf', width= 7, height=4)
 print(lineplot_civic)
 
 #plotting line graph for other group
 lineplot_other <- ggplot(data = data_decade_other) +
   aes(x=decade, y=percentage, color=category) +
+  labs(title='Other')+
   xlab("Decade") +
-  ylab("Death Percentage of Other Groups") +
-  ylim(NA, 75) +
+  ylab("Death percentage") +
+  ylim(-25,75)+
   theme_light() +
   geom_smooth(aes(fill = category)) +
   scale_fill_manual(values=c("#E69F00", "#C0392B")) +
   scale_color_manual(values=c("#E69F00", "#C0392B"))
-ggsave('Lineplot_other.pdf', width= 10, height=5)
+ggsave('Lineplot_other.pdf', width= 7, height=4)
 print(lineplot_other)
 
 #lineplot_pct <- ggplot(data = data_decade_civic) +
